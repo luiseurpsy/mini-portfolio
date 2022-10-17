@@ -1,10 +1,10 @@
 body{
-    background-image: url(../imagens/fundo-site.jpg); /*trocar para um fundo em 3D*/
+    background-image: url(../imagens/fundo-site.jpg); 
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
 
-    font-family: 'VT323', monospace; /*trocar para letra de jogos or animado*/
+    font-family: 'VT323', monospace; 
     color: white;
     font-size: 18px;
     display: flex;
@@ -15,7 +15,7 @@ body{
 }
 
 .cartao{
-    background-color: #070d12; /*pense na borda de fora amarela e a de perfil verde*/
+    background-color: #070d12; 
     width: 370px;
     border: 2px solid #e126d9;
     border-radius: 10px;
@@ -33,7 +33,7 @@ body{
 width: 96px;
 height: 96px;
 border-radius: 50px;
-border: 4px solid #02d08f /*tocar para rgb em movimento*/
+border: 4px solid #02d08f 
 }
 
 .cartao .minhas-informacoes .nome{
@@ -66,7 +66,11 @@ cursor: pointer;
     width: 30px;
 }
 
+.cartao .abas .aba.selecionado{
+    background-color: #262626;
+}
 
+.cartao .informacoes
 
 span{
     color: green;
